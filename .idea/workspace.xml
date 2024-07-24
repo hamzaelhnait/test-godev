@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726a1024-015a-4d01-9f0c-3b4603e65627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/AdventureMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/exceptions/InputNotValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/service/AdventureImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/service/IAdventure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/utils/ConstantUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/utils/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/carte.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdventureImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/carte.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/empty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/input_multiple.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/non_valid_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +50,7 @@
     "Maven.aventurier [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/hamza/projects/aventurier/src/test/resources"
   }

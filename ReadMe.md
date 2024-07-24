@@ -1,38 +1,38 @@
 
-## Structure du Projet
+### Structure du Projet
 
 Voici la structure du projet :
-└── src/
-├── main/
-│ ├── java/
-│ │ ├── org/
-│ │ │ └── godev/
-│ │ │ ├── entities/
-│ │ │ │ ├── Hero.java
-│ │ │ │ ├── AdventureMap.java
-│ │ │ │ └── Position.java
-│ │ │ ├── exceptions/
-│ │ │ │ └── InputNotValidException.java
-│ │ │ ├── service/
-│ │ │ │ ├── IAdventure.java
-│ │ │ │ └── AdventureImpl.java
-│ │ │ └── utils/
-│ │ │ ├── ConstantUtils.java
-│ │ │ └── Helpers.java
-│ │ └── Main.java
-│ └── ressources/
-│ ├── input.txt
-│ └── carte.txt
-└── test/
-├── java/
-│ └── AdventureImplTest.java
-└── ressources/
-├── carte.txt
-├── input1.txt
-├── input2.txt
-├── empty.txt
-├── input_multiple.txt
-└── non_valid_data.txt
+               └── src/
+               ├── main/
+               │ ├── java/
+               │ │ ├── org/
+               │ │ │ └── godev/
+               │ │ │ ├── entities/
+               │ │ │ │ ├── Hero.java
+               │ │ │ │ ├── AdventureMap.java
+               │ │ │ │ └── Position.java
+               │ │ │ ├── exceptions/
+               │ │ │ │ └── InputNotValidException.java
+               │ │ │ ├── service/
+               │ │ │ │ ├── IAdventure.java
+               │ │ │ │ └── AdventureImpl.java
+               │ │ │ └── utils/
+               │ │ │ ├── ConstantUtils.java
+               │ │ │ └── Helpers.java
+               │ │ └── Main.java
+               │ └── ressources/
+               │ ├── input.txt
+               │ └── carte.txt
+               └── test/
+               ├── java/
+               │ └── AdventureImplTest.java
+               └── ressources/
+               ├── carte.txt
+               ├── input1.txt
+               ├── input2.txt
+               ├── empty.txt
+               ├── input_multiple.txt
+               └── non_valid_data.txt
 ### Description
 
 - **`AdventureMap.java`** : Définit la carte de l'aventure, y compris sa représentation en grille et ses dimensions.
@@ -52,5 +52,23 @@ Voici la structure du projet :
    Utilisez Maven pour compiler et construire le projet. Exécutez la commande suivante depuis le répertoire racine du projet :
 
    ```bash
-   mvn clean compile install
+   mvn clean compile
+   ``` 
+2. **Exécution**
+  Pour éxecuter le projet java 
+  ```bash
+   java -cp <classpath> Main -f "<input-file>" "<map-file>"
+  ``` 
+### Exemple
+   ```bash
+      java -cp target/classes Main  
+   ``` 
+   ```bash
+    java -cp target/classes Main -f "chemin/input.txt" "chemin/carte.txt"
+   ``` 
+
+
+
+  
+   
 

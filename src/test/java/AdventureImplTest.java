@@ -23,8 +23,8 @@ class AdventureImplTest {
     }
 
     private AdventureImpl initializeAdventure(String mapFile, String inputFile) throws IOException {
-        Path mapFilePath = Paths.get("src", "test", "resources", mapFile).toAbsolutePath();
-        Path inputDataFilePath = Paths.get("src", "test", "resources", inputFile).toAbsolutePath();
+        Path mapFilePath = Paths.get("src", "test", "resources", mapFile).toAbsolutePath().normalize();
+        Path inputDataFilePath = Paths.get("src", "test", "resources", inputFile).toAbsolutePath().normalize();
         AdventureImpl adventure = AdventureImpl.create(mapFilePath.toString(), inputDataFilePath.toString());
         return adventure;
     }

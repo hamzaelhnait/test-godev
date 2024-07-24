@@ -19,8 +19,8 @@ public class Main {
             String pathMap;
             int indexFlag=indexFlag(args);
             if (indexFlag!=-1) {
-                pathInput = Paths.get(args[indexFlag + 1]).normalize().toString();
-                pathMap = Paths.get(args[indexFlag + 2]).normalize().toString();
+                pathInput = Paths.get(args[indexFlag + 1]).toAbsolutePath().normalize().toString();
+                pathMap = Paths.get(args[indexFlag + 2]).toAbsolutePath().normalize().toString();
             } else {
                 pathInput = Paths.get("src", "main", "resources", "input.txt").toAbsolutePath().normalize().toString();
                 pathMap = Paths.get("src", "main", "resources", "carte.txt").toAbsolutePath().normalize().toString();

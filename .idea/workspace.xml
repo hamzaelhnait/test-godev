@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="726a1024-015a-4d01-9f0c-3b4603e65627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/AdventureMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/entities/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/exceptions/InputNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/service/AdventureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/service/IAdventure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/utils/ConstantUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/godev/utils/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/carte.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AdventureImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/carte.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input_multiple.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/non_valid_data.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jed4nHqg3IJxTh3dRL71OjeIH7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AdventureImplTest (1).executor": "Run",
+    "JUnit.AdventureImplTest.executor": "Run",
+    "JUnit.AdventureImplTest.testCanHeroMove.executor": "Run",
+    "JUnit.AdventureImplTest.testExecuteAdventure.executor": "Run",
+    "JUnit.AdventureImplTest.testExecuteAdventureFirstInput.executor": "Run",
+    "JUnit.AdventureImplTest.testExecuteAdventureSecondInput.executor": "Run",
+    "JUnit.AdventureImplTest.testExecuteMultipleAdventures.executor": "Run",
+    "JUnit.AdventureImplTest.testInvalidInput.executor": "Run",
+    "JUnit.AdventureImplTest.testMoveHeroInvalidMove.executor": "Run",
+    "JUnit.AdventureImplTest.testMoveHeroValidMove.executor": "Run",
+    "Maven.aventurier [clean].executor": "Run",
+    "Maven.aventurier [compile].executor": "Run",
+    "Maven.aventurier [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/hamza/projects/aventurier/src/test/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/godev" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="aventurier" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureImplTest.testExecuteMultipleAdventures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aventurier" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdventureImplTest" />
+      <option name="METHOD_NAME" value="testExecuteMultipleAdventures" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureImplTest.testInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aventurier" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdventureImplTest" />
+      <option name="METHOD_NAME" value="testInvalidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureImplTest.testMoveHeroInvalidMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aventurier" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdventureImplTest" />
+      <option name="METHOD_NAME" value="testMoveHeroInvalidMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdventureImplTest.testMoveHeroValidMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aventurier" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdventureImplTest" />
+      <option name="METHOD_NAME" value="testMoveHeroValidMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AdventureImplTest.testInvalidInput" />
+        <item itemvalue="JUnit.AdventureImplTest.testExecuteMultipleAdventures" />
+        <item itemvalue="JUnit.AdventureImplTest.testMoveHeroInvalidMove" />
+        <item itemvalue="JUnit.AdventureImplTest.testMoveHeroValidMove" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726a1024-015a-4d01-9f0c-3b4603e65627" name="Changes" comment="" />
+      <created>1721751289552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721751289552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/godev/service/AdventureImpl.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

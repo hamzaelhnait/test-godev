@@ -44,6 +44,8 @@ Voici la structure du projet :
 - **`ConstantUtils.java`** : Contient les constantes utilisées dans le jeu telles que les directions de mouvement.
 - **`Helpers.java`** : Fournit des méthodes utilitaires pour lire les fichiers et valider les données.
 - **`AdventureImplTest.java`** : Tests unitaires pour `AdventureImpl` utilisant JUnit.
+### Design pattern utilisé
+ 1.Builder Pattern
 
 ### Comment Exécuter
 

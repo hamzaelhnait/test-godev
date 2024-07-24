@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 
 import static com.godev.utils.ConstantUtils.MAP_MOVEMENTS_COORDINATES;
-
+// cette classe est la pour aider à valider et lire et mapper les données des fichier input et carte
 public class Helpers {
     public static char[][] fileToCharMatrix(String path) throws IOException {
        return Files.readAllLines(Path.of(path)).stream().map(String::toCharArray).toArray(char[][]::new);

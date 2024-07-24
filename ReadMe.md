@@ -1,29 +1,31 @@
-### Structure du Projet
-.
+
+## Structure du Projet
+
+Voici la structure du projet :
 └── src/
 ├── main/
-│   ├── java/
-│   │   ├── org/
-│   │   │   └── godev/
-│   │   │       ├── entities/
-│   │   │       │   ├── Hero.java
-│   │   │       │   ├── AdventureMap.java
-│   │   │       │   └── Position.java
-│   │   │       ├── exceptions/
-│   │   │       │   └── InputNotValidException.java
-│   │   │       ├── service/
-│   │   │       │   ├── IAdventure.java
-│   │   │       │   └── AdventureImpl.java
-│   │   │       └── utils/
-│   │   │           ├── ConstantUtils.java
-│   │   │           └── Helpers.java
-│   │   └── Main.java
-│   └── ressources/
-│       ├── input.txt
-│       └── carte.txt
+│ ├── java/
+│ │ ├── org/
+│ │ │ └── godev/
+│ │ │ ├── entities/
+│ │ │ │ ├── Hero.java
+│ │ │ │ ├── AdventureMap.java
+│ │ │ │ └── Position.java
+│ │ │ ├── exceptions/
+│ │ │ │ └── InputNotValidException.java
+│ │ │ ├── service/
+│ │ │ │ ├── IAdventure.java
+│ │ │ │ └── AdventureImpl.java
+│ │ │ └── utils/
+│ │ │ ├── ConstantUtils.java
+│ │ │ └── Helpers.java
+│ │ └── Main.java
+│ └── ressources/
+│ ├── input.txt
+│ └── carte.txt
 └── test/
 ├── java/
-│   └── AdventureImplTest.java
+│ └── AdventureImplTest.java
 └── ressources/
 ├── carte.txt
 ├── input1.txt

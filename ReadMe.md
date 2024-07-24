@@ -1,7 +1,6 @@
 
 ### Structure du Projet
 
-Voici la structure du projet :
                └── src/
                ├── main/
                │ ├── java/

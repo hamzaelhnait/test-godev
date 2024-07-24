@@ -18,7 +18,7 @@ public class AdventureImpl implements IAdventure{
     private  AdventureMap adventureMap;
     private final String mapFile ;
     private final String inputDataFile ;
-    private int currentIndexInput ;
+    private int currentIndexInput ; //variable utilisé si un fichier contient plusieurs input
     private static List<String> inputContent ;
 
 
@@ -37,7 +37,7 @@ public class AdventureImpl implements IAdventure{
 
     @Override
     public String executeAdventure() throws IOException {
-        initHero(); // pour chaque nouveaux input si il y'a plusieur dans un meme fichier
+        initHero(); // pour chaque nouveaux input il faut initialiser si il y'a plusieur dans un meme fichier
         for(char direction : hero.getMoves().toCharArray()){
             moveHero(direction);
         }
